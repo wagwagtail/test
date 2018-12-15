@@ -8,11 +8,15 @@ headers = {
 }
 
 # 101-004-9972545-001
-response = requests.get('https://api-fxpractice.oanda.com/v3/accounts/101-004-9972545-001', headers=headers)
+response = requests.get(
+    'https://api-fxpractice.oanda.com/v3/accounts/101-004-9972545-001/pricing?instruments=USD_JPY',
+    stream=True,
+    headers=headers)
 
 data = response.json()
-
 df = pd.DataFrame.from_dict(data)
+
+print(data)
 # NB. Original query string below. It seems impossible to parse and
 # reproduce query strings 100% accurately so the one below is given
 # in case the reproduced version is not "correct".
