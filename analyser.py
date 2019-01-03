@@ -5,7 +5,7 @@ from textblob import TextBlob
 import time
 import datetime
 import pandas as pd
-
+import requests
 
 class TwitterClient(object):
     '''
@@ -96,7 +96,7 @@ def main():
     # creating object of TwitterClient Class
     api = TwitterClient()
     # calling function to get tweets
-    tweets = api.get_tweets(query='USDJPY', count=2000)
+    tweets = api.get_tweets(query='USDJPY', count=250)
 
     # picking positive tweets from tweets
     ptweets = [tweet for tweet in tweets if tweet['sentiment'] == 'positive']
@@ -116,6 +116,19 @@ def main():
     return (ptweetsperc, ntweetsperc, neuttweetperc)
 
 
+def stream():
+
+    headers = {
+        'Content-Type': 'application/json',
+        'Authorization': 'Bearer 7988784158b97bb23e2c31e1c3c2963b-6760148dd294e502680d2eb6e94b0235',
+    }
+
+    response = requests.get(
+        'https://api-fxpractice.oanda.com/v3/accounts/101-004-9972545-001/pricing?instruments=USD_JPY',
+        headers=headers)
+
+    return response.json()
+
 if __name__ == "__main__":
 
 
@@ -124,11 +137,14 @@ if __name__ == "__main__":
         newDF = pd.DataFrame()
         testtime = datetime.datetime.now().strftime("%Y-%m-%d-%H-%M")
 
-        for j in range(0, 60):
+        for j in range(0, 600):
             df = pd.DataFrame()
             df['time'] = datetime.datetime.now()
             df = df.append(df['time'])
             vals = main()
+            prices = stream()
+            df['asks'] = prices['prices'][0]['asks'][0]['price']
+            df['bids'] = prices['prices'][0]['bids'][0]['price']
             df['positive'] = vals[0]
             df['negative'] = vals[1]
             df['neutral'] = vals[2]
