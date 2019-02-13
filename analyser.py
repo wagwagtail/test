@@ -44,6 +44,7 @@ if __name__ == "__main__":
             df = df.append(df['time'])
             vals = get_twitter_response()
             prices = stream()
+            print(prices)
             df['asks'] = prices['prices'][0]['asks'][0]['price']
             df['bids'] = prices['prices'][0]['bids'][0]['price']
             df['positive'] = vals[0]

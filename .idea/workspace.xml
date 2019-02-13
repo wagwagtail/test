@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8523e7d0-9603-4d19-9a64-fa8ac335a4ec" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/tools.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -19,11 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/analyser.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="833">
-              <caret line="49" column="36" lean-forward="true" selection-start-line="49" selection-start-column="36" selection-end-line="49" selection-end-column="36" />
+            <state relative-caret-position="301">
+              <caret line="59" column="10" lean-forward="true" selection-start-line="59" selection-start-column="10" selection-end-line="59" selection-end-column="10" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -31,11 +30,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tools.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -69,8 +68,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="397" />
-    <option name="y" value="71" />
+    <option name="x" value="526" />
+    <option name="y" value="91" />
     <option name="width" value="1109" />
     <option name="height" value="604" />
   </component>
@@ -82,7 +81,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -94,23 +92,24 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$USER_HOME$/Anaconda3" />
+    <property name="last_opened_file_path" value="C:/Program Files/Git/bin/git.exe" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
       <console-settings module-name="test" is-module-sdk="true">
         <envs>
-          <env key="PATH" value="C:\Users\J and S\Anaconda3;C:\Users\J and S\Anaconda3\Library\mingw-w64\bin;C:\Users\J and S\Anaconda3\Library\usr\bin;C:\Users\J and S\Anaconda3\Library\bin;C:\Users\J and S\Anaconda3\Scripts;C:\Users\J and S\Anaconda3\bin;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Users\J and S\Anaconda3;C:\Users\J and S\AppData\Local\Programs\Python\Python37-32\Scripts\;C:\Users\J and S\AppData\Local\Programs\Python\Python37-32\;C:\Users\J and S\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\PyCharm Community Edition 2018.3.2\bin;;" />
+          <env key="PATH" value="C:\Users\James\Anaconda3;C:\Users\James\Anaconda3\Library\mingw-w64\bin;C:\Users\James\Anaconda3\Library\usr\bin;C:\Users\James\Anaconda3\Library\bin;C:\Users\James\Anaconda3\Scripts;C:\Users\James\Anaconda3\bin;C:\ProgramData\Anaconda3;C:\ProgramData\Anaconda3\Library\mingw-w64\bin;C:\ProgramData\Anaconda3\Library\usr\bin;C:\ProgramData\Anaconda3\Library\bin;C:\ProgramData\Anaconda3\Scripts;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Users\James\Anaconda3\python.exe;C:\Users\James\AppData\Local\Microsoft\WindowsApps;C:\Users\James\AppData\Local\Programs\Microsoft VS Code\bin;&quot;C:\Users\James\Anaconda3;C:\Users\James\Anaconda3\Library\mingw-w64\bin;C:\Users\James\Anaconda3\Library\usr\bin;C:\Users\James\Anaconda3\Library\bin;C:\Users\James\Anaconda3\Scripts;C:\Users\James\Anaconda3\bin;C:\Users\James\Anaconda3\condabin;C:\WINDOWS\sy&quot;;" />
         </envs>
         <option name="myUseModuleSdk" value="true" />
         <option name="myModuleName" value="test" />
         <option name="myEnvs">
           <map>
-            <entry key="PATH" value="C:\Users\J and S\Anaconda3;C:\Users\J and S\Anaconda3\Library\mingw-w64\bin;C:\Users\J and S\Anaconda3\Library\usr\bin;C:\Users\J and S\Anaconda3\Library\bin;C:\Users\J and S\Anaconda3\Scripts;C:\Users\J and S\Anaconda3\bin;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Users\J and S\Anaconda3;C:\Users\J and S\AppData\Local\Programs\Python\Python37-32\Scripts\;C:\Users\J and S\AppData\Local\Programs\Python\Python37-32\;C:\Users\J and S\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\PyCharm Community Edition 2018.3.2\bin;;" />
+            <entry key="PATH" value="C:\Users\James\Anaconda3;C:\Users\James\Anaconda3\Library\mingw-w64\bin;C:\Users\James\Anaconda3\Library\usr\bin;C:\Users\James\Anaconda3\Library\bin;C:\Users\James\Anaconda3\Scripts;C:\Users\James\Anaconda3\bin;C:\ProgramData\Anaconda3;C:\ProgramData\Anaconda3\Library\mingw-w64\bin;C:\ProgramData\Anaconda3\Library\usr\bin;C:\ProgramData\Anaconda3\Library\bin;C:\ProgramData\Anaconda3\Scripts;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Users\James\Anaconda3\python.exe;C:\Users\James\AppData\Local\Microsoft\WindowsApps;C:\Users\James\AppData\Local\Programs\Microsoft VS Code\bin;&quot;C:\Users\James\Anaconda3;C:\Users\James\Anaconda3\Library\mingw-w64\bin;C:\Users\James\Anaconda3\Library\usr\bin;C:\Users\James\Anaconda3\Library\bin;C:\Users\James\Anaconda3\Scripts;C:\Users\James\Anaconda3\bin;C:\Users\James\Anaconda3\condabin;C:\WINDOWS\sy&quot;;" />
           </map>
         </option>
       </console-settings>
@@ -249,9 +248,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4964029" visible="true" weight="0.3139183" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4964029" visible="true" weight="0.31324404" />
       <window_info id="Structure" order="1" sideWeight="0.50119907" side_tool="true" weight="0.295764" />
       <window_info id="Favorites" order="2" sideWeight="0.50359714" side_tool="true" weight="0.295764" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -260,11 +260,11 @@
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49924356" weight="0.3993559" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32850242" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3269639" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32733223" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32569557" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50226927" side_tool="true" weight="0.32903227" />
-      <window_info anchor="bottom" id="Python Console" order="9" visible="true" weight="0.23510467" />
-      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32850242" />
+      <window_info active="true" anchor="bottom" id="Python Console" order="9" visible="true" weight="0.23404256" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32569557" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -408,13 +408,7 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/tweepy/streaming.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-306">
-          <caret line="191" column="8" selection-start-line="191" selection-start-column="8" selection-end-line="191" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/tweepy/streaming.py" />
     <entry file="file://$PROJECT_DIR$/twitterminer.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-329">
@@ -465,20 +459,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/tweepy/binder.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/tweepy/api.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="1259" selection-start-line="1259" selection-end-line="1259" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/tweepy/binder.py" />
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/tweepy/api.py" />
     <entry file="file://$USER_HOME$/Anaconda3/Lib/codecs.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
@@ -555,16 +537,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tools.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/pandas/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="227">
@@ -574,10 +546,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/analyser.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="833">
-          <caret line="49" column="36" lean-forward="true" selection-start-line="49" selection-start-column="36" selection-end-line="49" selection-end-column="36" />
+        <state relative-caret-position="301">
+          <caret line="59" column="10" lean-forward="true" selection-start-line="59" selection-start-column="10" selection-end-line="59" selection-end-column="10" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
