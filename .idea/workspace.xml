@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/analyser.py" line="65" mnemonic="9" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="8523e7d0-9603-4d19-9a64-fa8ac335a4ec" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/calculations.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/analyser.py" beforeDir="false" afterPath="$PROJECT_DIR$/analyser.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bokeh.py" beforeDir="false" afterPath="$PROJECT_DIR$/bokeh.py" afterDir="false" />
@@ -20,8 +24,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/analyser.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="46" column="12" lean-forward="true" selection-start-line="46" selection-start-column="12" selection-end-line="46" selection-end-column="12" />
+            <state relative-caret-position="415">
+              <caret line="63" column="26" lean-forward="true" selection-start-line="63" selection-start-column="26" selection-end-line="63" selection-end-column="26" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -30,12 +34,12 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tools.py">
+        <entry file="file://$PROJECT_DIR$/calculations.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="72" column="33" selection-start-line="72" selection-start-column="33" selection-end-line="72" selection-end-column="33" />
+            <state relative-caret-position="100">
+              <caret line="17" column="50" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
               <folding>
-                <element signature="e#0#9#0" expanded="true" />
+                <element signature="e#0#19#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -44,8 +48,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/bokeh.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="50" column="23" lean-forward="true" selection-start-line="50" selection-start-column="23" selection-end-line="50" selection-end-column="23" />
+            <state relative-caret-position="101">
+              <caret line="28" column="30" lean-forward="true" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
               <folding>
                 <element signature="e#70#115#0" expanded="true" />
               </folding>
@@ -74,16 +78,17 @@
         <option value="$PROJECT_DIR$/config.py" />
         <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/tools.py" />
-        <option value="$PROJECT_DIR$/analyser.py" />
         <option value="$PROJECT_DIR$/bokeh.py" />
+        <option value="$PROJECT_DIR$/calculations.py" />
+        <option value="$PROJECT_DIR$/analyser.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="167" />
-    <option name="y" value="-19" />
-    <option name="width" value="1109" />
-    <option name="height" value="604" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="575" />
+    <option name="y" value="-8" />
+    <option name="width" value="455" />
+    <option name="height" value="364" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -285,19 +290,19 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4964029" visible="true" weight="0.31324404" />
-      <window_info id="Structure" order="1" sideWeight="0.50119907" side_tool="true" weight="0.295764" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49484536" visible="true" weight="0.31324404" />
+      <window_info id="Structure" order="1" sideWeight="0.5051546" side_tool="true" visible="true" weight="0.31324404" />
       <window_info id="Favorites" order="2" sideWeight="0.50359714" side_tool="true" weight="0.295764" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4977307" weight="0.26022914" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49924356" weight="0.27332243" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49924356" weight="0.5351882" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32733223" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32569557" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50226927" side_tool="true" weight="0.32903227" />
-      <window_info active="true" anchor="bottom" id="Python Console" order="9" visible="true" weight="0.42716858" />
+      <window_info active="true" anchor="bottom" id="Python Console" order="9" visible="true" weight="0.5237316" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32569557" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -362,11 +367,6 @@
           <line>20</line>
           <option name="timeStamp" value="24" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/analyser.py</url>
-          <line>48</line>
-          <option name="timeStamp" value="28" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
@@ -379,47 +379,47 @@
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
       <expression>
-        <expression-string>twitter = get_twitter_response()</expression-string>
+        <expression-string>print = (stats_input['buy'].mean())</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>float(prices[0])</expression-string>
+        <expression-string>print(stats_input['buy'].mean())</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>df =  df.append(df)</expression-string>
+        <expression-string>stats_input['average_buy'] = stats_input['buy'].mean()</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>vals[2]</expression-string>
+        <expression-string>stats_input</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>vals[2</expression-string>
+        <expression-string>number = df_stats['average_sell']</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>vals[1]</expression-string>
+        <expression-string>df_stats['average_sell']</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>vals[0]</expression-string>
+        <expression-string>df_stats[]</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>response.json()['prices'][0]['asks'][0]['price']</expression-string>
+        <expression-string>df_stats</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>response.json()['prices'][0]['ask'][0]['price']</expression-string>
+        <expression-string>stats(stats_input)</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -479,13 +479,6 @@
     </entry>
     <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/tweepy/binder.py" />
     <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/tweepy/api.py" />
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/re.pyi">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-321">
@@ -569,30 +562,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/analyser.py">
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/pandas/core/indexes/base.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="46" column="12" lean-forward="true" selection-start-line="46" selection-start-column="12" selection-end-line="46" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="115">
+          <caret line="3797" selection-start-line="3797" selection-end-line="3797" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tools.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="72" column="33" selection-start-line="72" selection-start-column="33" selection-end-line="72" selection-end-column="33" />
+        <state relative-caret-position="-102">
+          <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/calculations.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="17" column="50" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/analyser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="63" column="26" lean-forward="true" selection-start-line="63" selection-start-column="26" selection-end-line="63" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/bokeh.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="50" column="23" lean-forward="true" selection-start-line="50" selection-start-column="23" selection-end-line="50" selection-end-column="23" />
+        <state relative-caret-position="101">
+          <caret line="28" column="30" lean-forward="true" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
           <folding>
             <element signature="e#70#115#0" expanded="true" />
           </folding>
