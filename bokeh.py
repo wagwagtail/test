@@ -1,6 +1,6 @@
 # bokeh serve --show "C:\Users\James\Documents\GitHub\test\bokeh.py"
 
-from analyser import oandaquery
+from oanda import oandaquery
 from bokeh.layouts import row, column, gridplot
 from bokeh.models import LinearAxis, ColumnDataSource, Range1d, Slider, Select
 from bokeh.plotting import curdoc, figure
