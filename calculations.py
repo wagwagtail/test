@@ -1,5 +1,6 @@
 import pandas as pd
 import numpy as np
+import datetime as dt
 
 
 def average(self):
@@ -8,7 +9,7 @@ def average(self):
 
 def parser(stock):
 
-    df = pd.DataFrame({'time': [stock["pythontime"]]})
+    df = pd.DataFrame(dt.datetime.now())
     df['sell'] = float(stock["response"]['prices'][0]['asks'][0]['price'])
     df['buy'] = float(stock["response"]['prices'][0]['bids'][0]['price'])
     df.set_index('time')

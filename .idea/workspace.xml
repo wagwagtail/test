@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/analyser.py" line="65" mnemonic="9" />
-  </component>
   <component name="ChangeListManager">
     <list default="true" id="8523e7d0-9603-4d19-9a64-fa8ac335a4ec" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/calculations.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/twitter.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/analyser.py" beforeDir="false" afterPath="$PROJECT_DIR$/analyser.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bokeh.py" beforeDir="false" afterPath="$PROJECT_DIR$/bokeh.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculations.py" beforeDir="false" afterPath="$PROJECT_DIR$/calculations.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,11 +19,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/analyser.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="415">
-              <caret line="63" column="26" lean-forward="true" selection-start-line="63" selection-start-column="26" selection-end-line="63" selection-end-column="26" />
+            <state relative-caret-position="203">
+              <caret line="29" column="42" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="42" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -34,10 +32,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/twitter.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="66" selection-start-line="17" selection-start-column="66" selection-end-line="17" selection-end-column="66" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/calculations.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="17" column="50" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
+            <state relative-caret-position="238">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -45,14 +52,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bokeh.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="101">
-              <caret line="28" column="30" lean-forward="true" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
-              <folding>
-                <element signature="e#70#115#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="34">
+              <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -78,8 +82,9 @@
         <option value="$PROJECT_DIR$/config.py" />
         <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/tools.py" />
-        <option value="$PROJECT_DIR$/bokeh.py" />
         <option value="$PROJECT_DIR$/calculations.py" />
+        <option value="$PROJECT_DIR$/twitter.py" />
+        <option value="$PROJECT_DIR$/bokeh.py" />
         <option value="$PROJECT_DIR$/analyser.py" />
       </list>
     </option>
@@ -98,6 +103,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -109,12 +115,11 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="C:/Program Files/Git/bin/git.exe" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -149,6 +154,9 @@
       <module name="test" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -288,21 +296,20 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49484536" visible="true" weight="0.31324404" />
-      <window_info id="Structure" order="1" sideWeight="0.5051546" side_tool="true" visible="true" weight="0.31324404" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48772505" visible="true" weight="0.31324404" />
+      <window_info id="Structure" order="1" sideWeight="0.512275" side_tool="true" visible="true" weight="0.31324404" />
       <window_info id="Favorites" order="2" sideWeight="0.50359714" side_tool="true" weight="0.295764" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4977307" weight="0.26022914" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49924356" weight="0.5351882" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49924356" weight="0.35515547" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32733223" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32569557" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50226927" side_tool="true" weight="0.32903227" />
-      <window_info active="true" anchor="bottom" id="Python Console" order="9" visible="true" weight="0.5237316" />
+      <window_info anchor="bottom" id="Python Console" order="9" weight="0.2569558" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32569557" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -367,6 +374,26 @@
           <line>20</line>
           <option name="timeStamp" value="24" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/analyser.py</url>
+          <line>28</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/analyser.py</url>
+          <line>29</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/analyser.py</url>
+          <line>30</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/analyser.py</url>
+          <line>44</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
@@ -377,6 +404,53 @@
     </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
+    <expressions id="evaluateCodeFragment">
+      <expression>
+        <expression-string>self.stock_prices = pd.DataFrame(data=self.response['prices'])</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>data=self.response['prices']</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>test.response</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>test.get_oanda_response()</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>response = test.response.json()</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>response = test.response</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>response = self.response</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>test.response.elapsed</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>self.stock_prices['closeoutAsk']</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+    </expressions>
     <expressions id="evaluateExpression">
       <expression>
         <expression-string>print = (stats_input['buy'].mean())</expression-string>
@@ -555,13 +629,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/bokeh/models/sources.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="363" column="8" selection-start-line="363" selection-start-column="8" selection-end-line="363" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/pandas/core/indexes/base.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
@@ -586,33 +653,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/calculations.py">
+    <entry file="file://$USER_HOME$/.PyCharmCE2018.3/system/python_stubs/-819252111/builtins.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
-          <caret line="17" column="50" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
+          <caret line="774" column="8" selection-start-line="774" selection-start-column="8" selection-end-line="774" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/bokeh/models/sources.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="164" column="8" selection-start-line="164" selection-start-column="8" selection-end-line="164" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/analyser.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="63" column="26" lean-forward="true" selection-start-line="63" selection-start-column="26" selection-end-line="63" selection-end-column="26" />
+        <state relative-caret-position="203">
+          <caret line="29" column="42" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="42" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/twitter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="66" selection-start-line="17" selection-start-column="66" selection-end-line="17" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/calculations.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/bokeh.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="28" column="30" lean-forward="true" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
-          <folding>
-            <element signature="e#70#115#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="34">
+          <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
         </state>
       </provider>
     </entry>

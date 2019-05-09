@@ -1,6 +1,6 @@
 # bokeh serve --show "C:\Users\James\Documents\GitHub\test\bokeh.py"
 
-from analyser import twitterquery, oandaquery
+from analyser import oandaquery
 from bokeh.layouts import row, column, gridplot
 from bokeh.models import LinearAxis, ColumnDataSource, Range1d, Slider, Select
 from bokeh.plotting import curdoc, figure
@@ -21,8 +21,10 @@ p.line(x='oandatime', y='mid', alpha=0.8, line_width=3, color='blue', source=sou
 
 
 @count()
+
+
 def update(t):
-    asks, bids, oandatime = oandaquery.stream()
+    asks, bids, oandatime = oandaquery.get_oanda_response(t)
     mid = (asks + bids) / 2
     new_data = dict(
         mid=[mid],
