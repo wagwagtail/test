@@ -2,6 +2,7 @@ import time
 import datetime
 import pandas as pd
 import requests
+import config
 
 class oandaquery:
     def __init__(self):
@@ -13,9 +14,11 @@ class oandaquery:
 
     def get_oanda_response(self):
 
+        key = config.get_api_key()
+
         headers = {
             'Content-Type': 'application/json',
-            'Authorization': 'Bearer 7988784158b97bb23e2c31e1c3c2963b-6760148dd294e502680d2eb6e94b0235',
+            'Authorization': 'Bearer {}'.format(key),
         }
 
         self.response = requests.get(
