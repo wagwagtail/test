@@ -2,7 +2,7 @@ import time
 import datetime
 import pandas as pd
 import requests
-import config
+from config import GetDetails
 
 class oandaquery:
     def __init__(self):
@@ -13,7 +13,7 @@ class oandaquery:
         self.stock_prices = None
 
     def get_oanda_response(self):
-
+        config = GetDetails()
         key = config.get_api_key()
 
         headers = {
@@ -41,8 +41,8 @@ class oandaquery:
 
 
 if __name__ == "__main__":
+    while True:
+        test = oandaquery()
+        test.get_oanda_response()
 
-    test = oandaquery()
-    test.get_oanda_response()
-
-    time.sleep(1)
+        time.sleep(1)
