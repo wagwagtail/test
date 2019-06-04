@@ -3,10 +3,12 @@ import datetime
 import pandas as pd
 import requests
 from config import GetDetails
+from sql.sql import SqlTable
 
 class oandaquery:
     def __init__(self):
         self.response = None
+        self.time = None
         self.ask = None
         self.bids = None
         self.stock_dataframe = None
@@ -27,9 +29,7 @@ class oandaquery:
 
         self.stock_prices = pd.DataFrame(data=self.response['prices'])
 
-
-
-        self.time = self.stock_prices['time']
+        self.time = self.stock_prices['time'][0]
         self.ask = float(self.stock_prices['closeoutAsk'])
         self.bids = float(self.stock_prices['closeoutBid'])
 
@@ -41,8 +41,11 @@ class oandaquery:
 
 
 if __name__ == "__main__":
-    while True:
-        test = oandaquery()
-        test.get_oanda_response()
 
-        time.sleep(1)
+    connection = SqlTable()
+    while True:
+            test = oandaquery()
+            test.get_oanda_response()
+            connection.write(time=test.time, ask=test.ask, bid=test.bids)
+
+            time.sleep(3)
