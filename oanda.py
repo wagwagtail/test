@@ -30,8 +30,8 @@ class oandaquery:
         self.stock_prices = pd.DataFrame(data=self.response['prices'])
 
         self.time = self.stock_prices['time'][0]
-        self.ask = float(self.stock_prices['closeoutAsk'])
-        self.bids = float(self.stock_prices['closeoutBid'])
+        self.ask = float(self.stock_prices['asks'].values[0][0].get('price'))
+        self.bids = float(self.stock_prices['bids'].values[0][0].get('price'))
 
     def load_data_frame(self):
         self.df = self.df.append(self.stock_prices)
@@ -47,5 +47,4 @@ if __name__ == "__main__":
             test = oandaquery()
             test.get_oanda_response()
             connection.write(time=test.time, ask=test.ask, bid=test.bids)
-
-            time.sleep(3)
+            time.sleep(1)

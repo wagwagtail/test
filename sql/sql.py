@@ -17,12 +17,15 @@ class SqlTable:
 
 
     def write(self, time,ask,bid):
-        print("Create")
         cursor = self.conn.cursor()
         string = "insert into [python].[dbo].[instrument_table] (time, ask, bid) values('{time}',{ask}, {bid})".format(
             time=time, ask = ask, bid =bid)
-        cursor.execute(string)
-        self.conn.commit()
+
+        try:
+            cursor.execute(string)
+            self.conn.commit()
+        except:
+            pass
 
 
     def connection(self):
