@@ -2,6 +2,9 @@ import time
 import datetime
 import pandas as pd
 import requests
+from requests.adapters import HTTPAdapter
+from requests.packages.urllib3.util.retry import Retry
+
 from config import GetDetails
 from sql.sql import SqlTable
 
@@ -23,7 +26,13 @@ class oandaquery:
             'Authorization': 'Bearer {}'.format(key),
         }
 
-        self.response = requests.get(
+        session = requests.Session()
+        retry = Retry(connect=3, backoff_factor=0.5)
+        adapter = HTTPAdapter(max_retries=retry)
+        session.mount('http://', adapter)
+        session.mount('https://', adapter)
+
+        self.response = session.get(
             'https://api-fxpractice.oanda.com/v3/accounts/101-004-9972545-001/pricing?instruments=USD_JPY',
             headers=headers).json()
 
@@ -46,5 +55,6 @@ if __name__ == "__main__":
     while True:
             test = oandaquery()
             test.get_oanda_response()
+            print(test.time)
             connection.write(time=test.time, ask=test.ask, bid=test.bids)
             time.sleep(1)
